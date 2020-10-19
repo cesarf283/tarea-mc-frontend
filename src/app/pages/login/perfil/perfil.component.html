@@ -1,0 +1,13 @@
+<mat-toolbar>Datos de Perfil</mat-toolbar>
+<div>
+    <mat-card>Usuario:
+        <mat-list role="list">
+            <mat-list-item>{{usuario}}</mat-list-item>
+        </mat-list>
+    </mat-card>
+    <mat-card>Roles:
+        <mat-list>
+            <mat-list-item *ngFor="let r of rol">{{r}}</mat-list-item>
+        </mat-list>
+    </mat-card>
+</div>
